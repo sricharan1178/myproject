@@ -1,0 +1,32 @@
+<html>
+<head>
+<input type="button" value="click" onclick="FizzBuzz()">
+</head>
+<body>
+
+<script>
+function FizzBuzz()
+{
+for ( var a = 1; a <= 100; a++ )
+{
+  if ( a%3 === 0 && a%5 === 0 )
+  {
+    document.writeln( " FizzBuzz" );
+  }
+  else if ( a%3 === 0 ) 
+  {
+    document.writeln( " Fizz" );
+  }
+  else if ( a%5 === 0 ) 
+  {
+    document.writeln( " Buzz" );
+  }
+  else
+  {
+    document.writeln(a);
+  }
+}
+}
+</script>
+</body>
+</html>
